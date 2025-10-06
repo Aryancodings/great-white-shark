@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    color: black;
+}
+
+.form-div {
+    margin: 35px;
+    border: 3px solid rgb(245, 66, 66);
+    border-radius: 10px;
+    padding: 0 20px;
+    width: 35%;
+    background-color: rgb(30, 30, 30);
+}
+
+.header-div {
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    background-color: rgb(245, 66, 66);
+    border-radius: 0 0 10px 10px;
+    padding: 0 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.form-content-div {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-btns {
+    width: 100%;
+    display: flex;
+}
+
+#message {
+    height: 100px;
+}
+
+#submit, #reset {
+    padding: 10px 15px;
+    font-size: 1.05rem;
+    width: 50%;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+#submit {
+    background-color: rgb(245, 66, 66);
+    color: white;
+}
+
+#reset {
+    color: black;
+}
+
+.email-address-div {
+    display: flex;
+    align-items: center;
+}
+
+.fa-envelope, #email-address {
+    font-size: 1.5rem;
+}
+
+#email-address {
+    text-decoration: underline solid rgb(245, 66, 66);
+}
