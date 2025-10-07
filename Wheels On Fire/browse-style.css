@@ -228,13 +228,13 @@ main {
     align-items: center;
 }
 
-.contacts-div {
+.contact-div {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
 
-.contact-div {
+.contact-section {
     display: flex;
     align-items: center;
     margin: 0 15px;
