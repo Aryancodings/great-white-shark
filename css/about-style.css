@@ -1,0 +1,114 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 25, 25);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.my-story-div {
+    width: 78vw;
+    height: auto;
+    margin: 5%;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.my-story-left-div, .my-story-right-div {
+    height: auto;
+    border: 3px solid rgb(246, 66, 66);
+}
+
+.my-story-motto-div {
+    padding: 20px;
+    background-color: rgb(40, 40, 40);
+    border-top: 3px solid rgb(246, 66, 66);
+}
+
+#motto {
+    text-align: center;
+}
+
+.my-story-position-div {
+    padding: 18px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 3px solid rgb(246, 66, 66);
+    background-color: rgb(19, 19, 19);
+}
+
+#position {
+    letter-spacing: 5px;
+    text-decoration: underline solid rgb(246, 66, 66);
+    font-weight: 600;
+}
+
+#company {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.my-story-header-div {
+    background-color: rgb(246, 66, 66);
+}
+
+#my-story-header {
+    margin-left: 10px;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+
+.my-story-para-div {
+    padding: 10px;
+}
+
+#my-story-para {
+    line-height: 1.58rem;
+}
+
+.first-cars-div {
+    padding: 20px;
+    background-color: rgb(246, 66, 66);
+    width: 100%;
+}
+
+#first-cars-header {
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: 700;
+}
+
+.first-cars {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.first-car {
+    margin: 0 15px;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.first-car-img {
+    width: 100%;
+}
+
+.about-company-div {
+    width: 100%;
+    padding: 25px 45px;
+    background-color: rgb(55, 55, 55);
+}
+
+#about-company-para {
+    margin: 5px 0;
+}
