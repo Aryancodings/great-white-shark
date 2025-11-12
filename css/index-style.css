@@ -20,7 +20,7 @@
 }
 
 #credits {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 1.2rem;
 }
 
@@ -132,4 +132,5 @@
 .contacts {
   display: flex;
   align-items: center;
+
 }
