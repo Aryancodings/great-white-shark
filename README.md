@@ -1,1 +1,1 @@
-![Wheels on Fire Title](assets/WOF-title.png)
+![Wheels on Fire Title](assets/WOF-title.webp)
