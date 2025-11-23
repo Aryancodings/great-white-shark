@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://kit.fontawesome.com/62b7f32c2b.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="../css/index-style.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/upcoming.-style.css" />
+        <link rel="stylesheet" href="../css/browse-style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Goldman:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <div class="pages-island">
+                <div class="pages">
+                    <a class="page-link" href="browse.html">Browse</a>
+                    <a href="../index.html" class="page-link">Home</a>
+                    <a href="about.html" class="page-link">About</a>
+                </div>
+            </div>
+            <div class="contact-div">
+                <div class="contact-contents-div">
+                    <a href="contact.html" id="contact-page-link">Contact Us</a>
+                    <i class="fa-solid fa-phone fa"></i>
+                </div>
+            </div>
+            <div class="header-band band">
+                <a
+                    href="upcoming.html"
+                    class="upcoming-events-link"
+                    id="upcoming-events-active"
+                    >UPCOMING EVENTS</a
+                >
+            </div>
+        </header>
+        <main>
+            <div class="carousel-div">
+                <div class="carousel-title-div">
+                    <h1 id="carousel-title">WHEELS ON FIRE SHOWROOM TOUR</h1>
+                </div>
+                <div
+                    id="car-carousel"
+                    class="carousel slide carousel-fade"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#car-carousel"
+                            data-bs-slide-to="0"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#car-carousel"
+                            data-bs-slide-to="1"
+                            class="active"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#car-carousel"
+                            data-bs-slide-to="2"
+                        ></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <div
+                                class="overlay-img"
+                                style="
+                                    background-image: url('../assets/car-exh-00.jpg');
+                                "
+                            ></div>
+                            <div class="container">
+                                <h1
+                                    class="venue-name"
+                                    style="
+                                        text-decoration-color: rgb(
+                                            48,
+                                            144,
+                                            220
+                                        );
+                                    "
+                                >
+                                    Japanese Reliability
+                                </h1>
+                                <p>
+                                    Showcase of the robustness and longevity of
+                                    Japanese automobiles.
+                                </p>
+                                <button
+                                    class="btn btn-lg btn-primary buy-btn sign-up-btn"
+                                    id="carousel-btn-00"
+                                >
+                                    GET TICKETS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div
+                                class="overlay-img"
+                                style="
+                                    background-image: url('../assets/car-exh-01.jpg');
+                                "
+                            ></div>
+                            <div class="container">
+                                <h1
+                                    class="venue-name"
+                                    style="
+                                        text-decoration-color: rgb(
+                                            239,
+                                            64,
+                                            224
+                                        );
+                                    "
+                                >
+                                    Performance / Hybrid
+                                </h1>
+                                <p>
+                                    Showcase of next-gen performance and hybrid
+                                    cars.
+                                </p>
+                                <button
+                                    class="btn btn-lg btn-primary buy-btn sign-up-btn"
+                                    id="carousel-btn-01"
+                                >
+                                    GET TICKETS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div
+                                class="overlay-img"
+                                style="
+                                    background-image: url('../assets/car-exh-02.jpg');
+                                "
+                            ></div>
+                            <div class="container">
+                                <h1
+                                    class="venue-name"
+                                    style="
+                                        text-decoration-color: rgb(245, 66, 66);
+                                    "
+                                >
+                                    The Ancients
+                                </h1>
+                                <p>
+                                    Travel back in time during a tour of our
+                                    vintage showroom.
+                                </p>
+                                <button
+                                    class="btn btn-lg btn-primary buy-btn sign-up-btn"
+                                    id="carousel-btn-02"
+                                >
+                                    GET TICKETS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        data-bs-target="#car-carousel"
+                        data-bs-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button
+                        class="carousel-control-next"
+                        data-bs-target="#car-carousel"
+                        data-bs-slide="next"
+                    >
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <hr />
+            <hr />
+            <div class="wwo-div">
+                <h2 id="wwo-title">What We Offer</h2>
+                <p id="wwo-para">
+                    Our events span large-scale exhibitions, keynote speeches,
+                    panel discussions, fireside chats, and live technology
+                    demonstrations. From the cutting edge of Formula 1 and
+                    motorsport technologies to the raw energy of endurance
+                    racing, rally, and drift, and the craftsmanship behind
+                    luxury models and next-generation electric vehicles. The
+                    John O' Reilly Car Show delivers an immersive experience
+                    that captures the full spectrum of the motor world. From
+                    networking opportunities to exclusive car experiences, we
+                    offer everything.
+                </p>
+            </div>
+            <hr />
+            <hr />
+            <div class="testimonial-parent-div">
+                <div class="testimonial-title-div">
+                    <h1 id="testimonial-title">REVIEW</h1>
+                </div>
+                <div class="testimonial-div">
+                    <div class="testimonial-img-div">
+                        <img
+                            src="../assets/person-4.jpg"
+                            alt="Image of a woman"
+                            id="testimonial-img"
+                        />
+                    </div>
+                    <div class="testimonial-content-div">
+                        <p id="testimonial-content">
+                            This place is great. They have so many baked goods
+                            it will blow your mind. They have everything from
+                            large cakes to cupcakes to donuts to pastries to
+                            breads to cookies. The price is also fair
+                        </p>
+                        <p id="credits"> -
+                            <span style="font-weight: bold">Aisha Pun</span>,
+                            Accountant</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <hr>
+        </main>
+        <footer>
+            <div
+                class="title-band band"
+                style="background-color: rgb(44, 44, 44)"
+            ></div>
+            <div class="contacts-div">
+                <h2 class="contacts-header">Contact Us</h2>
+                <div class="phone-contacts contacts">
+                    <i class="fa-solid fa-phone fa"></i>
+                    <p>Phone: +353 012 345 6789</p>
+                </div>
+                <div class="phone-contacts contacts">
+                    <i class="fa-solid fa-envelope fa"></i>
+                    <p>E-mail: wheelsonfire@gmail.com</p>
+                </div>
+                <div class="phone-contacts contacts">
+                    <i class="fa-brands fa-instagram fa"></i>
+                    <p>Instagram: WOFwebdevs</p>
+                </div>
+            </div>
+        </footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+            integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

@@ -1,0 +1,161 @@
+h1, p {
+    margin: 0;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+button {
+    margin-top: 1rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#upcoming-events-active,
+#upcoming-events-active:hover {
+    background-color: rgb(25, 25, 25);
+    color: rgb(245, 66, 66);
+    pointer-events: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-title-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 66, 66);
+    padding: 10px 0;
+    border-radius: 5px 5px 0 0;
+}
+
+#carousel-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.carousel-div {
+    width: 70%;
+}
+
+.carousel-item {
+    height: 24rem;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 45px;
+}
+
+.venue-name {
+    text-decoration: underline solid rgb(245, 66, 66) 2px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.overlay-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.3;
+}
+#carousel-btn-00 {
+    background-color: rgb(48, 144, 220);
+}
+#carousel-btn-00:hover {
+    color: rgb(48, 144, 220);
+    background-color: rgb(255, 255, 255);
+}
+
+#carousel-btn-01 {
+    background-color: rgb(239, 64, 224);
+}
+
+#carousel-btn-01:hover {
+    color: rgb(239, 64, 224);
+    background-color: rgb(255, 255, 255);
+}
+
+#carousel-btn-02 {
+    background-color: rgb(245, 66, 66);
+}
+
+#carousel-btn-02:hover {
+    color: rgb(245, 66, 66);
+    background-color: rgb(255, 255, 255);
+}
+
+.wwo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+#wwo-title {
+    text-decoration: underline solid rgb(245, 66, 66) 2px;
+}
+
+.testimonial-parent-div {
+    border: 3px solid rgb(245, 66, 66);
+    width: 70%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.testimonial-title-div {
+    background-color: rgb(245, 66, 66);
+    text-align: center;
+
+}
+
+.testimonial-div {
+    display: flex;
+}
+
+.testimonial-img-div {
+    width: 100%;
+    border-right: 3px solid rgb(245, 66, 66);
+}
+
+.testimonial-content-div {
+    padding: 15px;
+    position: relative;
+}
+
+#testimonial-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+#testimonial-content {
+    font-size: 1.2rem;
+}
+
+#credits {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    font-weight: lighter;
+
+}
