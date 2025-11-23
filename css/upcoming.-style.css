@@ -33,6 +33,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     background-color: rgb(245, 66, 66);
     padding: 10px 0;
     border-radius: 5px 5px 0 0;
@@ -130,11 +131,16 @@ main {
 
 .testimonial-div {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonial-img-div, .testimonial-content-div {
+    flex: 1 1 300px;
+    
 }
 
 .testimonial-img-div {
-    width: 100%;
-    border-right: 3px solid rgb(245, 66, 66);
+    border: 3px solid rgb(245, 66, 66);
 }
 
 .testimonial-content-div {

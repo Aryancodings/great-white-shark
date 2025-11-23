@@ -146,3 +146,26 @@ img {
     margin: 8px 15px;
     color: rgb(245, 66, 66);
 }
+
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+    
+    .contact-div
+    #contact-page-link {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+
+    #contact-page-link-active {
+        width: 25%;
+    }
+}

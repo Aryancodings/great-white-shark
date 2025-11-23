@@ -18,17 +18,24 @@ main {
     display: flex;
     border-radius: 5px;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .my-story-left-div, .my-story-right-div {
     height: auto;
     border: 3px solid rgb(246, 66, 66);
+    flex: 1 1 350px;
+}
+
+.my-story-img-div {
+    background-position: center;
+    background-size: cover;
 }
 
 .my-story-motto-div {
     padding: 20px;
     background-color: rgb(40, 40, 40);
-    border-top: 3px solid rgb(246, 66, 66);
+    border: 3px solid rgb(246, 66, 66);
 }
 
 #motto {
@@ -36,9 +43,11 @@ main {
 }
 
 .my-story-position-div {
+    height: min-content;
     padding: 18px 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     border-top: 3px solid rgb(246, 66, 66);
     background-color: rgb(19, 19, 19);
@@ -71,6 +80,7 @@ main {
 
 #my-story-para {
     line-height: 1.58rem;
+    font-size: 0.85rem;
 }
 
 .first-cars-div {

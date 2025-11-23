@@ -12,6 +12,7 @@
 .title-content {
     display: flex;
     align-items: center;
+    text-align: center;
     flex-direction: column;
 }
 
@@ -45,15 +46,17 @@
 
 .faces-div {
     display: flex;
-    margin-top: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 .face-div {
-    width: 120px;
+    width: 33%;
     height: 115px;
     background-color: rgb(18, 18, 18);
-    border-radius: 40%;
-    margin: 0 25px;
+    border-radius: 5px;
     overflow: hidden;
+    flex: 1 1 100px;
 }
 
 .face {
@@ -80,20 +83,25 @@
     width: 50%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
     border: 2px solid white;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 5px 5px 8px 1px rgba(255, 255, 255, 0.2);
+}
+
+.quote-content-div, .quote-img-div {
+    flex: 1 1 150px;
 }
 
 .quote-img-div {
     width: 50%;
-    border-right: 10px solid rgb(245, 66, 66);
+    border: 5px solid rgb(245, 66, 66);
+    overflow: hidden;
 }
 
 .john-img {
     width: 100%;
-    height: auto;
+    height: fit-content;
 }
 
 .quote-content-div {
