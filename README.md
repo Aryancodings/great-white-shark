@@ -3,5 +3,5 @@
 ## Contents:
 - Source code.
 - All of the assets used.
-Footnote: [^1]
-[^1] The working and recently updated code is available on the `gh-pages` branch.
+## Note
+[^1]: The working and recently updated code is available on the `gh-pages` branch.
