@@ -172,7 +172,7 @@ main {
 
 .buy-btn:hover {
     color: rgb(245, 66, 66);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .customer-sect {
