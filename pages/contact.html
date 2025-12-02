@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta lang='en'>
-        <meta name='description' content='Contact Page of WOF.'>
+        <meta lang="en" />
+        <meta name="description" content="Contact Page of WOF." />
         <link rel="stylesheet" href="../css/style.css" />
         <link rel="stylesheet" href="../css/contact-style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,15 +31,21 @@
             <div class="contact-div" id="contact-page-link-active">
                 <div class="contact-contents-div">
                     <a href="contact.html" id="contact-page-link">Contact Us</a>
-                    <a href="contact.html" aria-label="Link to the contact page.">
-                    <i
-                        class="fa-solid fa-phone fa"
-                        id="contact-icon-active"
-                    ></i></a>
+                    <a
+                        href="contact.html"
+                        aria-label="Link to the contact page."
+                    >
+                        <i
+                            class="fa-solid fa-phone fa"
+                            id="contact-icon-active"
+                        ></i
+                    ></a>
                 </div>
             </div>
             <div class="header-band band">
-                <a href="upcoming.html" class="upcoming-events-link">UPCOMING EVENTS</a>
+                <a href="upcoming.html" class="upcoming-events-link"
+                    >UPCOMING EVENTS</a
+                >
             </div>
         </header>
         <main>
@@ -48,7 +54,7 @@
                     <h2 id="header">GET IN TOUCH</h2>
                 </div>
                 <div class="form-content-div">
-                    <form action="">
+                    <form action="" id="form">
                         <label for="fname"
                             >Forename
                             <span style="color: rgb(245, 66, 66)"
@@ -78,7 +84,23 @@
                             placeholder="abc@xyc.com"
                             required
                         />
+                        <p id="email-tooltip">Please enter a valid email.</p>
                         <br /><br />
+                        <label for="reason">Reason 
+                            <span style="color: rgb(245, 66, 66)"
+                                >*</span
+                            ></label>
+                        <br>
+                        <select name="reason" id="reason" autofocus>
+                            <option value="general">General</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="event-info">
+                                Event Information
+                            </option>
+                            <option value="other">Other</option>
+                        </select>
+                        <br />
+                        <br />
                         <label for="message"
                             >Message
                             <span style="color: rgb(245, 66, 66)"
@@ -86,7 +108,7 @@
                             ></label
                         >
                         <br />
-                        <input type="text" name="" id="message" required />
+                        <input type="text" name="message" id="message" required />
                         <br /><br /><br />
                         <div class="form-btns">
                             <input type="submit" id="submit" value="SEND" />
@@ -96,12 +118,11 @@
                 </div>
             </div>
             <div class="email-address-div">
-            <i class="fa-solid fa-envelope fa"></i>
-            <p id="email-address">: wheelsonfire@gmail.com</p>
-
+                <i class="fa-solid fa-envelope fa"></i>
+                <p id="email-address">: wheelsonfire@gmail.com</p>
             </div>
         </main>
+        <script src="../js/validation.js"></script>
         <script src="../js/blinking.js"></script>
     </body>
 </html>
-

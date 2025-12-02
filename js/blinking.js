@@ -1,6 +1,5 @@
 upcomingOffersLink = document.getElementsByClassName("upcoming-events-link")[0];
 
-console.log(upcomingOffersLink)
 setInterval(() => {
     upcomingOffersLink.style.opacity =
 

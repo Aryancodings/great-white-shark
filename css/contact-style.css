@@ -11,10 +11,13 @@ main {
 
 input {
     color: black;
+    padding: 2px 1px;
+    border-radius: 2px;
+    border-width: 1px;
 }
 
 .form-div {
-    margin: 35px;
+    margin: 25px;
     border: 3px solid rgb(245, 66, 66);
     border-radius: 10px;
     padding: 0 20px;
@@ -41,6 +44,12 @@ input {
     padding: 25px;
     display: flex;
     justify-content: center;
+}
+
+#email-tooltip {
+    color: rgb(245, 66, 66);
+    font-size: 0.85rem;
+    display: none;
 }
 
 .form-btns {
@@ -82,6 +91,19 @@ input {
 
 #email-address {
     text-decoration: underline solid rgb(245, 66, 66);
+}
+
+input[required] {
+    border: 1px solid rgb(245, 66, 66);
+
+}
+
+select {
+    width: 100%;
+    color: black;
+    padding: 3px 1px;
+    border-radius: 2px;
+    border: 1px solid rgb(245, 66, 66);
 }
 
 @media only screen and (max-width: 500px) {
